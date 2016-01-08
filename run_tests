@@ -1,0 +1,18 @@
+#!/bin/sh
+set +e
+rm -rf .coverage
+SCRIPT=$(readlink -f "$0")
+SCRIPTPATH=$(dirname "$SCRIPT")
+MIN_PERCENTAGE=100
+echo "Working directory: $SCRIPTPATH"
+export PYTHONPATH="$SCRIPTPATH:$PYTHONPATH"
+coverage3 run -m nose --cover-package=src/s42 -w tests -x && \
+coverage3 report --include=src/s42/* \
+    --omit "./tests/*" \
+    --fail-under $MIN_PERCENTAGE -m
+
+coverage run -m nose --cover-package=src/s42 -w tests && \
+coverage report --include=src/s42/* \
+    --omit "./tests/*" \
+    --fail-under $MIN_PERCENTAGE -m
+

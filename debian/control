@@ -1,0 +1,27 @@
+Source: s42
+Priority: optional
+Maintainer: Sousou Industries Releases <releases@sousouindustries.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Section: libs
+Homepage: https://www.sousouindustries.com
+
+Package: s42-common
+Section: libdevel
+Architecture: any
+Description: The PATDL templates for the Python S42-6
+ library.
+
+
+Package: python3-s42
+Section: python
+Architecture: any
+Depends: python3-lxml, s42-common
+Description: Python 3 S42 module
+
+Package: python-s42
+Section: python
+Architecture: any
+Depends: python-lxml, s42-common
+Description: Python 2.7 S42 module
+

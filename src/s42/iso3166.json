@@ -1,0 +1,1777 @@
+[
+    {
+        "name": "Andorra",
+        "fips": "AN",
+        "alpha2": "AD",
+        "numeric3": "020",
+        "alpha3": "AND"
+    },
+    {
+        "name": "United Arab Emirates",
+        "fips": "AE",
+        "alpha2": "AE",
+        "numeric3": "784",
+        "alpha3": "ARE"
+    },
+    {
+        "name": "Afghanistan",
+        "fips": "AF",
+        "alpha2": "AF",
+        "numeric3": "004",
+        "alpha3": "AFG"
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "fips": "AC",
+        "alpha2": "AG",
+        "numeric3": "028",
+        "alpha3": "ATG"
+    },
+    {
+        "name": "Anguilla",
+        "fips": "AV",
+        "alpha2": "AI",
+        "numeric3": "660",
+        "alpha3": "AIA"
+    },
+    {
+        "name": "Albania",
+        "fips": "AL",
+        "alpha2": "AL",
+        "numeric3": "008",
+        "alpha3": "ALB"
+    },
+    {
+        "name": "Armenia",
+        "fips": "AM",
+        "alpha2": "AM",
+        "numeric3": "051",
+        "alpha3": "ARM"
+    },
+    {
+        "name": "Netherlands Antilles",
+        "fips": "NT",
+        "alpha2": "AN",
+        "numeric3": "530",
+        "alpha3": "ANT"
+    },
+    {
+        "name": "Angola",
+        "fips": "AO",
+        "alpha2": "AO",
+        "numeric3": "024",
+        "alpha3": "AGO"
+    },
+    {
+        "name": "Antarctica",
+        "fips": "AY",
+        "alpha2": "AQ",
+        "numeric3": "010",
+        "alpha3": "ATA"
+    },
+    {
+        "name": "Argentina",
+        "fips": "AR",
+        "alpha2": "AR",
+        "numeric3": "032",
+        "alpha3": "ARG"
+    },
+    {
+        "name": "American Samoa",
+        "fips": "AQ",
+        "alpha2": "AS",
+        "numeric3": "016",
+        "alpha3": "ASM"
+    },
+    {
+        "name": "Austria",
+        "fips": "AU",
+        "alpha2": "AT",
+        "numeric3": "040",
+        "alpha3": "AUT"
+    },
+    {
+        "name": "Australia",
+        "fips": "AS",
+        "alpha2": "AU",
+        "numeric3": "036",
+        "alpha3": "AUS"
+    },
+    {
+        "name": "Aruba",
+        "fips": "AA",
+        "alpha2": "AW",
+        "numeric3": "533",
+        "alpha3": "ABW"
+    },
+    {
+        "name": "Aland Islands",
+        "fips": "",
+        "alpha2": "AX",
+        "numeric3": "248",
+        "alpha3": "ALA"
+    },
+    {
+        "name": "Azerbaijan",
+        "fips": "AJ",
+        "alpha2": "AZ",
+        "numeric3": "031",
+        "alpha3": "AZE"
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "fips": "BK",
+        "alpha2": "BA",
+        "numeric3": "070",
+        "alpha3": "BIH"
+    },
+    {
+        "name": "Barbados",
+        "fips": "BB",
+        "alpha2": "BB",
+        "numeric3": "052",
+        "alpha3": "BRB"
+    },
+    {
+        "name": "Bangladesh",
+        "fips": "BG",
+        "alpha2": "BD",
+        "numeric3": "050",
+        "alpha3": "BGD"
+    },
+    {
+        "name": "Belgium",
+        "fips": "BE",
+        "alpha2": "BE",
+        "numeric3": "056",
+        "alpha3": "BEL"
+    },
+    {
+        "name": "Burkina Faso",
+        "fips": "UV",
+        "alpha2": "BF",
+        "numeric3": "854",
+        "alpha3": "BFA"
+    },
+    {
+        "name": "Bulgaria",
+        "fips": "BU",
+        "alpha2": "BG",
+        "numeric3": "100",
+        "alpha3": "BGR"
+    },
+    {
+        "name": "Bahrain",
+        "fips": "BA",
+        "alpha2": "BH",
+        "numeric3": "048",
+        "alpha3": "BHR"
+    },
+    {
+        "name": "Burundi",
+        "fips": "BY",
+        "alpha2": "BI",
+        "numeric3": "108",
+        "alpha3": "BDI"
+    },
+    {
+        "name": "Benin",
+        "fips": "BN",
+        "alpha2": "BJ",
+        "numeric3": "204",
+        "alpha3": "BEN"
+    },
+    {
+        "name": "Saint Barthelemy",
+        "fips": "TB",
+        "alpha2": "BL",
+        "numeric3": "652",
+        "alpha3": "BLM"
+    },
+    {
+        "name": "Bermuda",
+        "fips": "BD",
+        "alpha2": "BM",
+        "numeric3": "060",
+        "alpha3": "BMU"
+    },
+    {
+        "name": "Brunei",
+        "fips": "BX",
+        "alpha2": "BN",
+        "numeric3": "096",
+        "alpha3": "BRN"
+    },
+    {
+        "name": "Bolivia",
+        "fips": "BL",
+        "alpha2": "BO",
+        "numeric3": "068",
+        "alpha3": "BOL"
+    },
+    {
+        "name": "Bonaire, Saint Eustatius and Saba ",
+        "fips": "",
+        "alpha2": "BQ",
+        "numeric3": "535",
+        "alpha3": "BES"
+    },
+    {
+        "name": "Brazil",
+        "fips": "BR",
+        "alpha2": "BR",
+        "numeric3": "076",
+        "alpha3": "BRA"
+    },
+    {
+        "name": "Bahamas",
+        "fips": "BF",
+        "alpha2": "BS",
+        "numeric3": "044",
+        "alpha3": "BHS"
+    },
+    {
+        "name": "Bhutan",
+        "fips": "BT",
+        "alpha2": "BT",
+        "numeric3": "064",
+        "alpha3": "BTN"
+    },
+    {
+        "name": "Bouvet Island",
+        "fips": "BV",
+        "alpha2": "BV",
+        "numeric3": "074",
+        "alpha3": "BVT"
+    },
+    {
+        "name": "Botswana",
+        "fips": "BC",
+        "alpha2": "BW",
+        "numeric3": "072",
+        "alpha3": "BWA"
+    },
+    {
+        "name": "Belarus",
+        "fips": "BO",
+        "alpha2": "BY",
+        "numeric3": "112",
+        "alpha3": "BLR"
+    },
+    {
+        "name": "Belize",
+        "fips": "BH",
+        "alpha2": "BZ",
+        "numeric3": "084",
+        "alpha3": "BLZ"
+    },
+    {
+        "name": "Canada",
+        "fips": "CA",
+        "alpha2": "CA",
+        "numeric3": "124",
+        "alpha3": "CAN"
+    },
+    {
+        "name": "Cocos Islands",
+        "fips": "CK",
+        "alpha2": "CC",
+        "numeric3": "166",
+        "alpha3": "CCK"
+    },
+    {
+        "name": "Democratic Republic of the Congo",
+        "fips": "CG",
+        "alpha2": "CD",
+        "numeric3": "180",
+        "alpha3": "COD"
+    },
+    {
+        "name": "Central African Republic",
+        "fips": "CT",
+        "alpha2": "CF",
+        "numeric3": "140",
+        "alpha3": "CAF"
+    },
+    {
+        "name": "Republic of the Congo",
+        "fips": "CF",
+        "alpha2": "CG",
+        "numeric3": "178",
+        "alpha3": "COG"
+    },
+    {
+        "name": "Switzerland",
+        "fips": "SZ",
+        "alpha2": "CH",
+        "numeric3": "756",
+        "alpha3": "CHE"
+    },
+    {
+        "name": "Ivory Coast",
+        "fips": "IV",
+        "alpha2": "CI",
+        "numeric3": "384",
+        "alpha3": "CIV"
+    },
+    {
+        "name": "Cook Islands",
+        "fips": "CW",
+        "alpha2": "CK",
+        "numeric3": "184",
+        "alpha3": "COK"
+    },
+    {
+        "name": "Chile",
+        "fips": "CI",
+        "alpha2": "CL",
+        "numeric3": "152",
+        "alpha3": "CHL"
+    },
+    {
+        "name": "Cameroon",
+        "fips": "CM",
+        "alpha2": "CM",
+        "numeric3": "120",
+        "alpha3": "CMR"
+    },
+    {
+        "name": "China",
+        "fips": "CH",
+        "alpha2": "CN",
+        "numeric3": "156",
+        "alpha3": "CHN"
+    },
+    {
+        "name": "Colombia",
+        "fips": "CO",
+        "alpha2": "CO",
+        "numeric3": "170",
+        "alpha3": "COL"
+    },
+    {
+        "name": "Costa Rica",
+        "fips": "CS",
+        "alpha2": "CR",
+        "numeric3": "188",
+        "alpha3": "CRI"
+    },
+    {
+        "name": "Serbia and Montenegro",
+        "fips": "YI",
+        "alpha2": "CS",
+        "numeric3": "891",
+        "alpha3": "SCG"
+    },
+    {
+        "name": "Cuba",
+        "fips": "CU",
+        "alpha2": "CU",
+        "numeric3": "192",
+        "alpha3": "CUB"
+    },
+    {
+        "name": "Cape Verde",
+        "fips": "CV",
+        "alpha2": "CV",
+        "numeric3": "132",
+        "alpha3": "CPV"
+    },
+    {
+        "name": "Curacao",
+        "fips": "UC",
+        "alpha2": "CW",
+        "numeric3": "531",
+        "alpha3": "CUW"
+    },
+    {
+        "name": "Christmas Island",
+        "fips": "KT",
+        "alpha2": "CX",
+        "numeric3": "162",
+        "alpha3": "CXR"
+    },
+    {
+        "name": "Cyprus",
+        "fips": "CY",
+        "alpha2": "CY",
+        "numeric3": "196",
+        "alpha3": "CYP"
+    },
+    {
+        "name": "Czech Republic",
+        "fips": "EZ",
+        "alpha2": "CZ",
+        "numeric3": "203",
+        "alpha3": "CZE"
+    },
+    {
+        "name": "Germany",
+        "fips": "GM",
+        "alpha2": "DE",
+        "numeric3": "276",
+        "alpha3": "DEU"
+    },
+    {
+        "name": "Djibouti",
+        "fips": "DJ",
+        "alpha2": "DJ",
+        "numeric3": "262",
+        "alpha3": "DJI"
+    },
+    {
+        "name": "Denmark",
+        "fips": "DA",
+        "alpha2": "DK",
+        "numeric3": "208",
+        "alpha3": "DNK"
+    },
+    {
+        "name": "Dominica",
+        "fips": "DO",
+        "alpha2": "DM",
+        "numeric3": "212",
+        "alpha3": "DMA"
+    },
+    {
+        "name": "Dominican Republic",
+        "fips": "DR",
+        "alpha2": "DO",
+        "numeric3": "214",
+        "alpha3": "DOM"
+    },
+    {
+        "name": "Algeria",
+        "fips": "AG",
+        "alpha2": "DZ",
+        "numeric3": "012",
+        "alpha3": "DZA"
+    },
+    {
+        "name": "Ecuador",
+        "fips": "EC",
+        "alpha2": "EC",
+        "numeric3": "218",
+        "alpha3": "ECU"
+    },
+    {
+        "name": "Estonia",
+        "fips": "EN",
+        "alpha2": "EE",
+        "numeric3": "233",
+        "alpha3": "EST"
+    },
+    {
+        "name": "Egypt",
+        "fips": "EG",
+        "alpha2": "EG",
+        "numeric3": "818",
+        "alpha3": "EGY"
+    },
+    {
+        "name": "Western Sahara",
+        "fips": "WI",
+        "alpha2": "EH",
+        "numeric3": "732",
+        "alpha3": "ESH"
+    },
+    {
+        "name": "Eritrea",
+        "fips": "ER",
+        "alpha2": "ER",
+        "numeric3": "232",
+        "alpha3": "ERI"
+    },
+    {
+        "name": "Spain",
+        "fips": "SP",
+        "alpha2": "ES",
+        "numeric3": "724",
+        "alpha3": "ESP"
+    },
+    {
+        "name": "Ethiopia",
+        "fips": "ET",
+        "alpha2": "ET",
+        "numeric3": "231",
+        "alpha3": "ETH"
+    },
+    {
+        "name": "Finland",
+        "fips": "FI",
+        "alpha2": "FI",
+        "numeric3": "246",
+        "alpha3": "FIN"
+    },
+    {
+        "name": "Fiji",
+        "fips": "FJ",
+        "alpha2": "FJ",
+        "numeric3": "242",
+        "alpha3": "FJI"
+    },
+    {
+        "name": "Falkland Islands",
+        "fips": "FK",
+        "alpha2": "FK",
+        "numeric3": "238",
+        "alpha3": "FLK"
+    },
+    {
+        "name": "Micronesia",
+        "fips": "FM",
+        "alpha2": "FM",
+        "numeric3": "583",
+        "alpha3": "FSM"
+    },
+    {
+        "name": "Faroe Islands",
+        "fips": "FO",
+        "alpha2": "FO",
+        "numeric3": "234",
+        "alpha3": "FRO"
+    },
+    {
+        "name": "France",
+        "fips": "FR",
+        "alpha2": "FR",
+        "numeric3": "250",
+        "alpha3": "FRA"
+    },
+    {
+        "name": "Gabon",
+        "fips": "GB",
+        "alpha2": "GA",
+        "numeric3": "266",
+        "alpha3": "GAB"
+    },
+    {
+        "name": "United Kingdom",
+        "fips": "UK",
+        "alpha2": "GB",
+        "numeric3": "826",
+        "alpha3": "GBR"
+    },
+    {
+        "name": "Grenada",
+        "fips": "GJ",
+        "alpha2": "GD",
+        "numeric3": "308",
+        "alpha3": "GRD"
+    },
+    {
+        "name": "Georgia",
+        "fips": "GG",
+        "alpha2": "GE",
+        "numeric3": "268",
+        "alpha3": "GEO"
+    },
+    {
+        "name": "French Guiana",
+        "fips": "FG",
+        "alpha2": "GF",
+        "numeric3": "254",
+        "alpha3": "GUF"
+    },
+    {
+        "name": "Guernsey",
+        "fips": "GK",
+        "alpha2": "GG",
+        "numeric3": "831",
+        "alpha3": "GGY"
+    },
+    {
+        "name": "Ghana",
+        "fips": "GH",
+        "alpha2": "GH",
+        "numeric3": "288",
+        "alpha3": "GHA"
+    },
+    {
+        "name": "Gibraltar",
+        "fips": "GI",
+        "alpha2": "GI",
+        "numeric3": "292",
+        "alpha3": "GIB"
+    },
+    {
+        "name": "Greenland",
+        "fips": "GL",
+        "alpha2": "GL",
+        "numeric3": "304",
+        "alpha3": "GRL"
+    },
+    {
+        "name": "Gambia",
+        "fips": "GA",
+        "alpha2": "GM",
+        "numeric3": "270",
+        "alpha3": "GMB"
+    },
+    {
+        "name": "Guinea",
+        "fips": "GV",
+        "alpha2": "GN",
+        "numeric3": "324",
+        "alpha3": "GIN"
+    },
+    {
+        "name": "Guadeloupe",
+        "fips": "GP",
+        "alpha2": "GP",
+        "numeric3": "312",
+        "alpha3": "GLP"
+    },
+    {
+        "name": "Equatorial Guinea",
+        "fips": "EK",
+        "alpha2": "GQ",
+        "numeric3": "226",
+        "alpha3": "GNQ"
+    },
+    {
+        "name": "Greece",
+        "fips": "GR",
+        "alpha2": "GR",
+        "numeric3": "300",
+        "alpha3": "GRC"
+    },
+    {
+        "name": "South Georgia and the South Sandwich Islands",
+        "fips": "SX",
+        "alpha2": "GS",
+        "numeric3": "239",
+        "alpha3": "SGS"
+    },
+    {
+        "name": "Guatemala",
+        "fips": "GT",
+        "alpha2": "GT",
+        "numeric3": "320",
+        "alpha3": "GTM"
+    },
+    {
+        "name": "Guam",
+        "fips": "GQ",
+        "alpha2": "GU",
+        "numeric3": "316",
+        "alpha3": "GUM"
+    },
+    {
+        "name": "Guinea-Bissau",
+        "fips": "PU",
+        "alpha2": "GW",
+        "numeric3": "624",
+        "alpha3": "GNB"
+    },
+    {
+        "name": "Guyana",
+        "fips": "GY",
+        "alpha2": "GY",
+        "numeric3": "328",
+        "alpha3": "GUY"
+    },
+    {
+        "name": "Hong Kong",
+        "fips": "HK",
+        "alpha2": "HK",
+        "numeric3": "344",
+        "alpha3": "HKG"
+    },
+    {
+        "name": "Heard Island and McDonald Islands",
+        "fips": "HM",
+        "alpha2": "HM",
+        "numeric3": "334",
+        "alpha3": "HMD"
+    },
+    {
+        "name": "Honduras",
+        "fips": "HO",
+        "alpha2": "HN",
+        "numeric3": "340",
+        "alpha3": "HND"
+    },
+    {
+        "name": "Croatia",
+        "fips": "HR",
+        "alpha2": "HR",
+        "numeric3": "191",
+        "alpha3": "HRV"
+    },
+    {
+        "name": "Haiti",
+        "fips": "HA",
+        "alpha2": "HT",
+        "numeric3": "332",
+        "alpha3": "HTI"
+    },
+    {
+        "name": "Hungary",
+        "fips": "HU",
+        "alpha2": "HU",
+        "numeric3": "348",
+        "alpha3": "HUN"
+    },
+    {
+        "name": "Indonesia",
+        "fips": "ID",
+        "alpha2": "ID",
+        "numeric3": "360",
+        "alpha3": "IDN"
+    },
+    {
+        "name": "Ireland",
+        "fips": "EI",
+        "alpha2": "IE",
+        "numeric3": "372",
+        "alpha3": "IRL"
+    },
+    {
+        "name": "Israel",
+        "fips": "IS",
+        "alpha2": "IL",
+        "numeric3": "376",
+        "alpha3": "ISR"
+    },
+    {
+        "name": "Isle of Man",
+        "fips": "IM",
+        "alpha2": "IM",
+        "numeric3": "833",
+        "alpha3": "IMN"
+    },
+    {
+        "name": "India",
+        "fips": "IN",
+        "alpha2": "IN",
+        "numeric3": "356",
+        "alpha3": "IND"
+    },
+    {
+        "name": "British Indian Ocean Territory",
+        "fips": "IO",
+        "alpha2": "IO",
+        "numeric3": "086",
+        "alpha3": "IOT"
+    },
+    {
+        "name": "Iraq",
+        "fips": "IZ",
+        "alpha2": "IQ",
+        "numeric3": "368",
+        "alpha3": "IRQ"
+    },
+    {
+        "name": "Iran",
+        "fips": "IR",
+        "alpha2": "IR",
+        "numeric3": "364",
+        "alpha3": "IRN"
+    },
+    {
+        "name": "Iceland",
+        "fips": "IC",
+        "alpha2": "IS",
+        "numeric3": "352",
+        "alpha3": "ISL"
+    },
+    {
+        "name": "Italy",
+        "fips": "IT",
+        "alpha2": "IT",
+        "numeric3": "380",
+        "alpha3": "ITA"
+    },
+    {
+        "name": "Jersey",
+        "fips": "JE",
+        "alpha2": "JE",
+        "numeric3": "832",
+        "alpha3": "JEY"
+    },
+    {
+        "name": "Jamaica",
+        "fips": "JM",
+        "alpha2": "JM",
+        "numeric3": "388",
+        "alpha3": "JAM"
+    },
+    {
+        "name": "Jordan",
+        "fips": "JO",
+        "alpha2": "JO",
+        "numeric3": "400",
+        "alpha3": "JOR"
+    },
+    {
+        "name": "Japan",
+        "fips": "JA",
+        "alpha2": "JP",
+        "numeric3": "392",
+        "alpha3": "JPN"
+    },
+    {
+        "name": "Kenya",
+        "fips": "KE",
+        "alpha2": "KE",
+        "numeric3": "404",
+        "alpha3": "KEN"
+    },
+    {
+        "name": "Kyrgyzstan",
+        "fips": "KG",
+        "alpha2": "KG",
+        "numeric3": "417",
+        "alpha3": "KGZ"
+    },
+    {
+        "name": "Cambodia",
+        "fips": "CB",
+        "alpha2": "KH",
+        "numeric3": "116",
+        "alpha3": "KHM"
+    },
+    {
+        "name": "Kiribati",
+        "fips": "KR",
+        "alpha2": "KI",
+        "numeric3": "296",
+        "alpha3": "KIR"
+    },
+    {
+        "name": "Comoros",
+        "fips": "CN",
+        "alpha2": "KM",
+        "numeric3": "174",
+        "alpha3": "COM"
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "fips": "SC",
+        "alpha2": "KN",
+        "numeric3": "659",
+        "alpha3": "KNA"
+    },
+    {
+        "name": "North Korea",
+        "fips": "KN",
+        "alpha2": "KP",
+        "numeric3": "408",
+        "alpha3": "PRK"
+    },
+    {
+        "name": "South Korea",
+        "fips": "KS",
+        "alpha2": "KR",
+        "numeric3": "410",
+        "alpha3": "KOR"
+    },
+    {
+        "name": "Kuwait",
+        "fips": "KU",
+        "alpha2": "KW",
+        "numeric3": "414",
+        "alpha3": "KWT"
+    },
+    {
+        "name": "Cayman Islands",
+        "fips": "CJ",
+        "alpha2": "KY",
+        "numeric3": "136",
+        "alpha3": "CYM"
+    },
+    {
+        "name": "Kazakhstan",
+        "fips": "KZ",
+        "alpha2": "KZ",
+        "numeric3": "398",
+        "alpha3": "KAZ"
+    },
+    {
+        "name": "Laos",
+        "fips": "LA",
+        "alpha2": "LA",
+        "numeric3": "418",
+        "alpha3": "LAO"
+    },
+    {
+        "name": "Lebanon",
+        "fips": "LE",
+        "alpha2": "LB",
+        "numeric3": "422",
+        "alpha3": "LBN"
+    },
+    {
+        "name": "Saint Lucia",
+        "fips": "ST",
+        "alpha2": "LC",
+        "numeric3": "662",
+        "alpha3": "LCA"
+    },
+    {
+        "name": "Liechtenstein",
+        "fips": "LS",
+        "alpha2": "LI",
+        "numeric3": "438",
+        "alpha3": "LIE"
+    },
+    {
+        "name": "Sri Lanka",
+        "fips": "CE",
+        "alpha2": "LK",
+        "numeric3": "144",
+        "alpha3": "LKA"
+    },
+    {
+        "name": "Liberia",
+        "fips": "LI",
+        "alpha2": "LR",
+        "numeric3": "430",
+        "alpha3": "LBR"
+    },
+    {
+        "name": "Lesotho",
+        "fips": "LT",
+        "alpha2": "LS",
+        "numeric3": "426",
+        "alpha3": "LSO"
+    },
+    {
+        "name": "Lithuania",
+        "fips": "LH",
+        "alpha2": "LT",
+        "numeric3": "440",
+        "alpha3": "LTU"
+    },
+    {
+        "name": "Luxembourg",
+        "fips": "LU",
+        "alpha2": "LU",
+        "numeric3": "442",
+        "alpha3": "LUX"
+    },
+    {
+        "name": "Latvia",
+        "fips": "LG",
+        "alpha2": "LV",
+        "numeric3": "428",
+        "alpha3": "LVA"
+    },
+    {
+        "name": "Libya",
+        "fips": "LY",
+        "alpha2": "LY",
+        "numeric3": "434",
+        "alpha3": "LBY"
+    },
+    {
+        "name": "Morocco",
+        "fips": "MO",
+        "alpha2": "MA",
+        "numeric3": "504",
+        "alpha3": "MAR"
+    },
+    {
+        "name": "Monaco",
+        "fips": "MN",
+        "alpha2": "MC",
+        "numeric3": "492",
+        "alpha3": "MCO"
+    },
+    {
+        "name": "Moldova",
+        "fips": "MD",
+        "alpha2": "MD",
+        "numeric3": "498",
+        "alpha3": "MDA"
+    },
+    {
+        "name": "Montenegro",
+        "fips": "MJ",
+        "alpha2": "ME",
+        "numeric3": "499",
+        "alpha3": "MNE"
+    },
+    {
+        "name": "Saint Martin",
+        "fips": "RN",
+        "alpha2": "MF",
+        "numeric3": "663",
+        "alpha3": "MAF"
+    },
+    {
+        "name": "Madagascar",
+        "fips": "MA",
+        "alpha2": "MG",
+        "numeric3": "450",
+        "alpha3": "MDG"
+    },
+    {
+        "name": "Marshall Islands",
+        "fips": "RM",
+        "alpha2": "MH",
+        "numeric3": "584",
+        "alpha3": "MHL"
+    },
+    {
+        "name": "Macedonia",
+        "fips": "MK",
+        "alpha2": "MK",
+        "numeric3": "807",
+        "alpha3": "MKD"
+    },
+    {
+        "name": "Mali",
+        "fips": "ML",
+        "alpha2": "ML",
+        "numeric3": "466",
+        "alpha3": "MLI"
+    },
+    {
+        "name": "Myanmar",
+        "fips": "BM",
+        "alpha2": "MM",
+        "numeric3": "104",
+        "alpha3": "MMR"
+    },
+    {
+        "name": "Mongolia",
+        "fips": "MG",
+        "alpha2": "MN",
+        "numeric3": "496",
+        "alpha3": "MNG"
+    },
+    {
+        "name": "Macao",
+        "fips": "MC",
+        "alpha2": "MO",
+        "numeric3": "446",
+        "alpha3": "MAC"
+    },
+    {
+        "name": "Northern Mariana Islands",
+        "fips": "CQ",
+        "alpha2": "MP",
+        "numeric3": "580",
+        "alpha3": "MNP"
+    },
+    {
+        "name": "Martinique",
+        "fips": "MB",
+        "alpha2": "MQ",
+        "numeric3": "474",
+        "alpha3": "MTQ"
+    },
+    {
+        "name": "Mauritania",
+        "fips": "MR",
+        "alpha2": "MR",
+        "numeric3": "478",
+        "alpha3": "MRT"
+    },
+    {
+        "name": "Montserrat",
+        "fips": "MH",
+        "alpha2": "MS",
+        "numeric3": "500",
+        "alpha3": "MSR"
+    },
+    {
+        "name": "Malta",
+        "fips": "MT",
+        "alpha2": "MT",
+        "numeric3": "470",
+        "alpha3": "MLT"
+    },
+    {
+        "name": "Mauritius",
+        "fips": "MP",
+        "alpha2": "MU",
+        "numeric3": "480",
+        "alpha3": "MUS"
+    },
+    {
+        "name": "Maldives",
+        "fips": "MV",
+        "alpha2": "MV",
+        "numeric3": "462",
+        "alpha3": "MDV"
+    },
+    {
+        "name": "Malawi",
+        "fips": "MI",
+        "alpha2": "MW",
+        "numeric3": "454",
+        "alpha3": "MWI"
+    },
+    {
+        "name": "Mexico",
+        "fips": "MX",
+        "alpha2": "MX",
+        "numeric3": "484",
+        "alpha3": "MEX"
+    },
+    {
+        "name": "Malaysia",
+        "fips": "MY",
+        "alpha2": "MY",
+        "numeric3": "458",
+        "alpha3": "MYS"
+    },
+    {
+        "name": "Mozambique",
+        "fips": "MZ",
+        "alpha2": "MZ",
+        "numeric3": "508",
+        "alpha3": "MOZ"
+    },
+    {
+        "name": "Namibia",
+        "fips": "WA",
+        "alpha2": "NA",
+        "numeric3": "516",
+        "alpha3": "NAM"
+    },
+    {
+        "name": "New Caledonia",
+        "fips": "NC",
+        "alpha2": "NC",
+        "numeric3": "540",
+        "alpha3": "NCL"
+    },
+    {
+        "name": "Niger",
+        "fips": "NG",
+        "alpha2": "NE",
+        "numeric3": "562",
+        "alpha3": "NER"
+    },
+    {
+        "name": "Norfolk Island",
+        "fips": "NF",
+        "alpha2": "NF",
+        "numeric3": "574",
+        "alpha3": "NFK"
+    },
+    {
+        "name": "Nigeria",
+        "fips": "NI",
+        "alpha2": "NG",
+        "numeric3": "566",
+        "alpha3": "NGA"
+    },
+    {
+        "name": "Nicaragua",
+        "fips": "NU",
+        "alpha2": "NI",
+        "numeric3": "558",
+        "alpha3": "NIC"
+    },
+    {
+        "name": "The Netherlands",
+        "fips": "NL",
+        "alpha2": "NL",
+        "numeric3": "528",
+        "alpha3": "NLD"
+    },
+    {
+        "name": "Norway",
+        "fips": "NO",
+        "alpha2": "NO",
+        "numeric3": "578",
+        "alpha3": "NOR"
+    },
+    {
+        "name": "Nepal",
+        "fips": "NP",
+        "alpha2": "NP",
+        "numeric3": "524",
+        "alpha3": "NPL"
+    },
+    {
+        "name": "Nauru",
+        "fips": "NR",
+        "alpha2": "NR",
+        "numeric3": "520",
+        "alpha3": "NRU"
+    },
+    {
+        "name": "Niue",
+        "fips": "NE",
+        "alpha2": "NU",
+        "numeric3": "570",
+        "alpha3": "NIU"
+    },
+    {
+        "name": "New Zealand",
+        "fips": "NZ",
+        "alpha2": "NZ",
+        "numeric3": "554",
+        "alpha3": "NZL"
+    },
+    {
+        "name": "Oman",
+        "fips": "MU",
+        "alpha2": "OM",
+        "numeric3": "512",
+        "alpha3": "OMN"
+    },
+    {
+        "name": "Panama",
+        "fips": "PM",
+        "alpha2": "PA",
+        "numeric3": "591",
+        "alpha3": "PAN"
+    },
+    {
+        "name": "Peru",
+        "fips": "PE",
+        "alpha2": "PE",
+        "numeric3": "604",
+        "alpha3": "PER"
+    },
+    {
+        "name": "French Polynesia",
+        "fips": "FP",
+        "alpha2": "PF",
+        "numeric3": "258",
+        "alpha3": "PYF"
+    },
+    {
+        "name": "Papua New Guinea",
+        "fips": "PP",
+        "alpha2": "PG",
+        "numeric3": "598",
+        "alpha3": "PNG"
+    },
+    {
+        "name": "Philippines",
+        "fips": "RP",
+        "alpha2": "PH",
+        "numeric3": "608",
+        "alpha3": "PHL"
+    },
+    {
+        "name": "Pakistan",
+        "fips": "PK",
+        "alpha2": "PK",
+        "numeric3": "586",
+        "alpha3": "PAK"
+    },
+    {
+        "name": "Poland",
+        "fips": "PL",
+        "alpha2": "PL",
+        "numeric3": "616",
+        "alpha3": "POL"
+    },
+    {
+        "name": "Saint Pierre and Miquelon",
+        "fips": "SB",
+        "alpha2": "PM",
+        "numeric3": "666",
+        "alpha3": "SPM"
+    },
+    {
+        "name": "Pitcairn",
+        "fips": "PC",
+        "alpha2": "PN",
+        "numeric3": "612",
+        "alpha3": "PCN"
+    },
+    {
+        "name": "Puerto Rico",
+        "fips": "RQ",
+        "alpha2": "PR",
+        "numeric3": "630",
+        "alpha3": "PRI"
+    },
+    {
+        "name": "Palestinian Territory",
+        "fips": "WE",
+        "alpha2": "PS",
+        "numeric3": "275",
+        "alpha3": "PSE"
+    },
+    {
+        "name": "Portugal",
+        "fips": "PO",
+        "alpha2": "PT",
+        "numeric3": "620",
+        "alpha3": "PRT"
+    },
+    {
+        "name": "Palau",
+        "fips": "PS",
+        "alpha2": "PW",
+        "numeric3": "585",
+        "alpha3": "PLW"
+    },
+    {
+        "name": "Paraguay",
+        "fips": "PA",
+        "alpha2": "PY",
+        "numeric3": "600",
+        "alpha3": "PRY"
+    },
+    {
+        "name": "Qatar",
+        "fips": "QA",
+        "alpha2": "QA",
+        "numeric3": "634",
+        "alpha3": "QAT"
+    },
+    {
+        "name": "Reunion",
+        "fips": "RE",
+        "alpha2": "RE",
+        "numeric3": "638",
+        "alpha3": "REU"
+    },
+    {
+        "name": "Romania",
+        "fips": "RO",
+        "alpha2": "RO",
+        "numeric3": "642",
+        "alpha3": "ROU"
+    },
+    {
+        "name": "Serbia",
+        "fips": "RI",
+        "alpha2": "RS",
+        "numeric3": "688",
+        "alpha3": "SRB"
+    },
+    {
+        "name": "Russia",
+        "fips": "RS",
+        "alpha2": "RU",
+        "numeric3": "643",
+        "alpha3": "RUS"
+    },
+    {
+        "name": "Rwanda",
+        "fips": "RW",
+        "alpha2": "RW",
+        "numeric3": "646",
+        "alpha3": "RWA"
+    },
+    {
+        "name": "Saudi Arabia",
+        "fips": "SA",
+        "alpha2": "SA",
+        "numeric3": "682",
+        "alpha3": "SAU"
+    },
+    {
+        "name": "Solomon Islands",
+        "fips": "BP",
+        "alpha2": "SB",
+        "numeric3": "090",
+        "alpha3": "SLB"
+    },
+    {
+        "name": "Seychelles",
+        "fips": "SE",
+        "alpha2": "SC",
+        "numeric3": "690",
+        "alpha3": "SYC"
+    },
+    {
+        "name": "Sudan",
+        "fips": "SU",
+        "alpha2": "SD",
+        "numeric3": "729",
+        "alpha3": "SDN"
+    },
+    {
+        "name": "Sweden",
+        "fips": "SW",
+        "alpha2": "SE",
+        "numeric3": "752",
+        "alpha3": "SWE"
+    },
+    {
+        "name": "Singapore",
+        "fips": "SN",
+        "alpha2": "SG",
+        "numeric3": "702",
+        "alpha3": "SGP"
+    },
+    {
+        "name": "Saint Helena",
+        "fips": "SH",
+        "alpha2": "SH",
+        "numeric3": "654",
+        "alpha3": "SHN"
+    },
+    {
+        "name": "Slovenia",
+        "fips": "SI",
+        "alpha2": "SI",
+        "numeric3": "705",
+        "alpha3": "SVN"
+    },
+    {
+        "name": "Svalbard and Jan Mayen",
+        "fips": "SV",
+        "alpha2": "SJ",
+        "numeric3": "744",
+        "alpha3": "SJM"
+    },
+    {
+        "name": "Slovakia",
+        "fips": "LO",
+        "alpha2": "SK",
+        "numeric3": "703",
+        "alpha3": "SVK"
+    },
+    {
+        "name": "Sierra Leone",
+        "fips": "SL",
+        "alpha2": "SL",
+        "numeric3": "694",
+        "alpha3": "SLE"
+    },
+    {
+        "name": "San Marino",
+        "fips": "SM",
+        "alpha2": "SM",
+        "numeric3": "674",
+        "alpha3": "SMR"
+    },
+    {
+        "name": "Senegal",
+        "fips": "SG",
+        "alpha2": "SN",
+        "numeric3": "686",
+        "alpha3": "SEN"
+    },
+    {
+        "name": "Somalia",
+        "fips": "SO",
+        "alpha2": "SO",
+        "numeric3": "706",
+        "alpha3": "SOM"
+    },
+    {
+        "name": "Suriname",
+        "fips": "NS",
+        "alpha2": "SR",
+        "numeric3": "740",
+        "alpha3": "SUR"
+    },
+    {
+        "name": "South Sudan",
+        "fips": "OD",
+        "alpha2": "SS",
+        "numeric3": "728",
+        "alpha3": "SSD"
+    },
+    {
+        "name": "Sao Tome and Principe",
+        "fips": "TP",
+        "alpha2": "ST",
+        "numeric3": "678",
+        "alpha3": "STP"
+    },
+    {
+        "name": "El Salvador",
+        "fips": "ES",
+        "alpha2": "SV",
+        "numeric3": "222",
+        "alpha3": "SLV"
+    },
+    {
+        "name": "Sint Maarten",
+        "fips": "NN",
+        "alpha2": "SX",
+        "numeric3": "534",
+        "alpha3": "SXM"
+    },
+    {
+        "name": "Syria",
+        "fips": "SY",
+        "alpha2": "SY",
+        "numeric3": "760",
+        "alpha3": "SYR"
+    },
+    {
+        "name": "Swaziland",
+        "fips": "WZ",
+        "alpha2": "SZ",
+        "numeric3": "748",
+        "alpha3": "SWZ"
+    },
+    {
+        "name": "Turks and Caicos Islands",
+        "fips": "TK",
+        "alpha2": "TC",
+        "numeric3": "796",
+        "alpha3": "TCA"
+    },
+    {
+        "name": "Chad",
+        "fips": "CD",
+        "alpha2": "TD",
+        "numeric3": "148",
+        "alpha3": "TCD"
+    },
+    {
+        "name": "French Southern Territories",
+        "fips": "FS",
+        "alpha2": "TF",
+        "numeric3": "260",
+        "alpha3": "ATF"
+    },
+    {
+        "name": "Togo",
+        "fips": "TO",
+        "alpha2": "TG",
+        "numeric3": "768",
+        "alpha3": "TGO"
+    },
+    {
+        "name": "Thailand",
+        "fips": "TH",
+        "alpha2": "TH",
+        "numeric3": "764",
+        "alpha3": "THA"
+    },
+    {
+        "name": "Tajikistan",
+        "fips": "TI",
+        "alpha2": "TJ",
+        "numeric3": "762",
+        "alpha3": "TJK"
+    },
+    {
+        "name": "Tokelau",
+        "fips": "TL",
+        "alpha2": "TK",
+        "numeric3": "772",
+        "alpha3": "TKL"
+    },
+    {
+        "name": "East Timor",
+        "fips": "TT",
+        "alpha2": "TL",
+        "numeric3": "626",
+        "alpha3": "TLS"
+    },
+    {
+        "name": "Turkmenistan",
+        "fips": "TX",
+        "alpha2": "TM",
+        "numeric3": "795",
+        "alpha3": "TKM"
+    },
+    {
+        "name": "Tunisia",
+        "fips": "TS",
+        "alpha2": "TN",
+        "numeric3": "788",
+        "alpha3": "TUN"
+    },
+    {
+        "name": "Tonga",
+        "fips": "TN",
+        "alpha2": "TO",
+        "numeric3": "776",
+        "alpha3": "TON"
+    },
+    {
+        "name": "Turkey",
+        "fips": "TU",
+        "alpha2": "TR",
+        "numeric3": "792",
+        "alpha3": "TUR"
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "fips": "TD",
+        "alpha2": "TT",
+        "numeric3": "780",
+        "alpha3": "TTO"
+    },
+    {
+        "name": "Tuvalu",
+        "fips": "TV",
+        "alpha2": "TV",
+        "numeric3": "798",
+        "alpha3": "TUV"
+    },
+    {
+        "name": "Taiwan",
+        "fips": "TW",
+        "alpha2": "TW",
+        "numeric3": "158",
+        "alpha3": "TWN"
+    },
+    {
+        "name": "Tanzania",
+        "fips": "TZ",
+        "alpha2": "TZ",
+        "numeric3": "834",
+        "alpha3": "TZA"
+    },
+    {
+        "name": "Ukraine",
+        "fips": "UP",
+        "alpha2": "UA",
+        "numeric3": "804",
+        "alpha3": "UKR"
+    },
+    {
+        "name": "Uganda",
+        "fips": "UG",
+        "alpha2": "UG",
+        "numeric3": "800",
+        "alpha3": "UGA"
+    },
+    {
+        "name": "United States Minor Outlying Islands",
+        "fips": "",
+        "alpha2": "UM",
+        "numeric3": "581",
+        "alpha3": "UMI"
+    },
+    {
+        "name": "United States",
+        "fips": "US",
+        "alpha2": "US",
+        "numeric3": "840",
+        "alpha3": "USA"
+    },
+    {
+        "name": "Uruguay",
+        "fips": "UY",
+        "alpha2": "UY",
+        "numeric3": "858",
+        "alpha3": "URY"
+    },
+    {
+        "name": "Uzbekistan",
+        "fips": "UZ",
+        "alpha2": "UZ",
+        "numeric3": "860",
+        "alpha3": "UZB"
+    },
+    {
+        "name": "Vatican",
+        "fips": "VT",
+        "alpha2": "VA",
+        "numeric3": "336",
+        "alpha3": "VAT"
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "fips": "VC",
+        "alpha2": "VC",
+        "numeric3": "670",
+        "alpha3": "VCT"
+    },
+    {
+        "name": "Venezuela",
+        "fips": "VE",
+        "alpha2": "VE",
+        "numeric3": "862",
+        "alpha3": "VEN"
+    },
+    {
+        "name": "British Virgin Islands",
+        "fips": "VI",
+        "alpha2": "VG",
+        "numeric3": "092",
+        "alpha3": "VGB"
+    },
+    {
+        "name": "U.S. Virgin Islands",
+        "fips": "VQ",
+        "alpha2": "VI",
+        "numeric3": "850",
+        "alpha3": "VIR"
+    },
+    {
+        "name": "Vietnam",
+        "fips": "VM",
+        "alpha2": "VN",
+        "numeric3": "704",
+        "alpha3": "VNM"
+    },
+    {
+        "name": "Vanuatu",
+        "fips": "NH",
+        "alpha2": "VU",
+        "numeric3": "548",
+        "alpha3": "VUT"
+    },
+    {
+        "name": "Wallis and Futuna",
+        "fips": "WF",
+        "alpha2": "WF",
+        "numeric3": "876",
+        "alpha3": "WLF"
+    },
+    {
+        "name": "Samoa",
+        "fips": "WS",
+        "alpha2": "WS",
+        "numeric3": "882",
+        "alpha3": "WSM"
+    },
+    {
+        "name": "Unspecified",
+        "alpha2": "XA",
+        "alpha3": "XAA",
+        "numeric3": "900"
+    },
+    {
+        "name": "Unknown",
+        "alpha2": "XB",
+        "alpha3": "XAB",
+        "numeric3": "901"
+    },
+    {
+        "name": "Not applicable",
+        "alpha2": "XC",
+        "alpha3": "XAC",
+        "numeric3": "902"
+    },
+    {
+        "name": "Yemen",
+        "fips": "YM",
+        "alpha2": "YE",
+        "numeric3": "887",
+        "alpha3": "YEM"
+    },
+    {
+        "name": "Mayotte",
+        "fips": "MF",
+        "alpha2": "YT",
+        "numeric3": "175",
+        "alpha3": "MYT"
+    },
+    {
+        "name": "South Africa",
+        "fips": "SF",
+        "alpha2": "ZA",
+        "numeric3": "710",
+        "alpha3": "ZAF"
+    },
+    {
+        "name": "Zambia",
+        "fips": "ZA",
+        "alpha2": "ZM",
+        "numeric3": "894",
+        "alpha3": "ZMB"
+    },
+    {
+        "name": "Zimbabwe",
+        "fips": "ZI",
+        "alpha2": "ZW",
+        "numeric3": "716",
+        "alpha3": "ZWE"
+    }
+]

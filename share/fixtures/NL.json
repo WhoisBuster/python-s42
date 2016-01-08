@@ -1,0 +1,111 @@
+[
+    {
+        "data": {
+            "10.05": "Mevrouw",
+            "10.10-1-0": "drs.",
+            "10.06": "Anna",
+            "10.07": "de",
+            "10.08": "Groot",
+            "40.21-1-1": "Drieslag",
+            "40.24": "5",
+            "40.28": "1",
+            "40.13": "6832AM",
+            "40.16": "Arnhem"
+        },
+        "lines": [
+            "Mevrouw drs. Anna de Groot",
+            "Drieslag 5-1",
+            "6832 AM  ARNHEM"
+        ]
+    },
+    {
+        "data": {
+            "20.00": "Megasoft",
+            "20.01": "BV",
+            "20.02": "Afd. Marketing & Sales",
+            "10.04": "Attentie",
+            "10.03": "Medewerker Account",
+            "40.21-1-1": "Kerkstr.",
+            "40.24": "1",
+            "40.13": "5175BA",
+            "40.16": "Loon op Zand"
+        },
+        "lines": [
+            "Megasoft BV",
+            "Afd. Marketing & Sales",
+            "Attentie Medewerker Account",
+            "Kerkstr. 1",
+            "5175 BA  LOON OP ZAND"
+        ],
+        "is_populated": [
+            "U20.00-1-0"
+        ]
+    },
+    {
+        "data": {
+            "20.00": "Roodenburg",
+            "20.01": "VOF",
+            "10.04": "T.a.v.",
+            "10.05": "de heer",
+            "10.06": "J.K.",
+            "10.08": "Mingelen",
+            "10.09": "jr.",
+            "40.26-0-2": "Handelsgebouw",
+            "40.29": "West",
+            "40.31": "3e verdieping",
+            "40.21-1-1": "Weena",
+            "40.24": "721",
+            "40.13": "3001GC",
+            "40.16": "Rotterdam"
+        },
+        "lines": [
+            "Roodenburg VOF",
+            "T.a.v. de heer J.K. Mingelen jr.",
+            "Handelsgebouw West 3e verdieping",
+            "Weena 721",
+            "3001 GC  ROTTERDAM"
+        ]
+    },
+    {
+        "data": {
+            "10.05": "Mevr.",
+            "10.06": "B.",
+            "10.07": "de",
+            "10.08": "Jong-Bosch",
+            "20.00": "Humanoid Enterprise",
+            "20.01": "b.v.",
+            "20.02": "Afdeling 4B",
+            "40.26-1-1": "Gebouw",
+            "40.26-0-2": "Westpoint",
+            "40.32": "Kamer 8 II",
+            "40.21-1-1": "2e Hugo de Grootstraat",
+            "40.24": "81-83",
+            "40.13": "1052MA",
+            "40.16": "Amsterdam",
+            "40.17": "Jordaan"
+        },
+        "lines": [
+            "Mevr. B. de Jong-Bosch",
+            "Humanoid Enterprise b.v.",
+            "Afdeling 4B",
+            "Gebouw Westpoint Kamer 8 II",
+            "2e Hugo de Grootstraat 81-83",
+            "1052 MA  AMSTERDAM JORDAAN"
+        ],
+        "skip": true
+    },
+    {
+        "data": {
+            "40.21-1-1": "Theresiastraat",
+            "40.24": "62",
+            "40.13": "2593AR",
+            "40.16": "Den Haag",
+            "40.14": "The Netherlands"
+        }, 
+        "lines": [
+            "Theresiastraat 62",
+            "2593 AR  DEN HAAG",
+            "THE NETHERLANDS"
+        ]
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "data": {
+            "10.05": "DR",
+            "10.06-0-1": "RENE",
+            "10.08": "RUSSO",
+            "40.24": "39110",
+            "40.21-1-1": "BUD",
+            "40.21-2-2": "CT",
+            "40.16": "FREMONT",
+            "40.15": "CA",
+            "40.13-0-1": "94538",
+            "40.13-0-2": "1120"
+        },
+        "lines": [
+            "DR RENE RUSSO",
+            "39110 BUD CT",
+            "FREMONT CA 94538-1120"
+        ],
+        "notes": [
+            "Element 40.21-2-2 is actually 40.21-1-2 in NEN 2012: 205."
+        ]
+    },
+    {
+        "data": {
+            "10.06-0-1": "CHARLES",
+            "10.06-0-2": "G.",
+            "10.08": "GRISSOM",
+            "10.03": "MANAGER OF EDUCATION",
+            "10.00": "MISSIONARY TRAINING CENTER",
+            "40.24": "2005",
+            "40.21-1-3": "N",
+            "40.21-1-1": "900",
+            "40.21-2-3": "E",
+            "40.16": "PROVO",
+            "40.15": "UT",
+            "40.13-0-1": "86404",
+            "40.13-0-2": "1763"
+        },
+        "lines": [
+            "CHARLES G. GRISSOM",
+            "MANAGER OF EDUCATION",
+            "MISSIONARY TRAINING CENTER",
+            "2005 N 900 E",
+            "PROVO UT 86404-1763"
+        ],
+        "notes": [
+            "Element 40.21-2-3 is actually 40.23-1-2 in NEN 2012: 205."
+        ]
+    },
+    {
+        "data": {
+            "10.06-0-1": "CECIL",
+            "10.06-0-2": "BOB",
+            "10.08": "DEMILLE",
+            "10.03": "PRODUCER",
+            "20.00": "COLUMBIA PICTURES",
+            "40.24": "2800",
+            "40.21-1-3": "N",
+            "40.21-1-1": "LOS FELICES",
+            "40.21-2-2": "CIR",
+            "40.21-2-3": "E",
+            "40.32-0-1": "UNIT",
+            "40.32-0-2": "C100",
+            "40.16": "PALM SPRINGS",
+            "40.15": "CA",
+            "40.13-0-1": "92260",
+            "40.13-0-2": "3002"
+        },
+        "lines": [
+            "CECIL BOB DEMILLE",
+            "PRODUCER",
+            "COLUMBIA PICTURES",
+            "2800 N LOS FELICES CIR E UNIT C100",
+            "PALM SPRINGS CA 92260-3002"
+        ],
+        "notes": [
+            "Element 40.21-2-2 is actually 40.21-1-2 in NEN 2012: 205."
+        ]
+    }
+]

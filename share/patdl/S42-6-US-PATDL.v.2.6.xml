@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This is the PATDL USPS template representing the street address, postal box,
+and rural route formats using UPU codes and rendition instructions. Military
+addresses follow the rural route pattern. Preceding thoroughfare types such as
+"Avenida" are carried in the USPS data base together with the thoroughfare name,
+while succeeding thoroughfare types such as "Avenue" are kept in a separate
+field.
+The template has been validated using the Postal Address Template Description
+Language (PATDL) v. 2.6 W3C schema.
+The file name is S42-6-US-PATDL.V.2.6.xml.
+-->
+<patdl26.xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PATDL.v.2.6.xsd">
+  <identifier>
+    <referenceKey>UPU-US</referenceKey>
+    <elementIdentifier>
+      <type>code</type>
+      <prefix>U</prefix>
+      <system>UPU</system>
+      <version>S42-6</version>
+      <source>UPU</source>
+    </elementIdentifier>
+    <elementDefiner>
+      <type>descriptive</type>
+      <language>English</language>
+      <system>UPU</system>
+      <version>S42-6</version>
+      <source>UPU</source>
+    </elementDefiner>
+    <elementDescriptor>
+      <type>descriptive</type>
+      <language>English</language>
+      <system>USPS</system>
+      <version />
+      <source />
+    </elementDescriptor>
+    <renditionInstruction>
+      <type>mnemonic</type>
+      <language>English</language>
+      <system>UPU</system>
+      <version>S42-6</version>
+      <source>UPU</source>
+    </renditionInstruction>
+    <defaultDelimiter>' '</defaultDelimiter>
+    <defaultSeparator>';'</defaultSeparator>
+    <defaultSequencer>','</defaultSequencer>
+    <defaultCollector>'-'</defaultCollector>
+    <externalEntityData>
+      <entityId>US-RuralRouteTypeTest</entityId>
+      <entityType>procedure</entityType>
+      <entityReference>USPS</entityReference>
+      <entitySystem>UPU</entitySystem>
+      <entityVersion>S42-6</entityVersion>
+      <entityDataStructure />
+      <entityArguments>
+        <parameterName>U40.24</parameterName>
+        <dataMode>IN</dataMode>
+        <parameterName>U40.21-2-2</parameterName>
+        <dataMode>IN</dataMode>
+        <parameterName>U40.21-1-1</parameterName>
+        <dataMode>IN</dataMode>
+        <parameterName>Result</parameterName>
+        <dataMode>OUT</dataMode>
+      </entityArguments>
+    </externalEntityData>
+  </identifier>
+  <contentDefinition>
+    <templateName />
+    <templateIdentifier>
+      <templateType>ADR</templateType>
+      <countryCode>US</countryCode>
+      <userId>UPU</userId>
+      <templateSeqNum>001</templateSeqNum>
+      <templateVersion>0001</templateVersion>
+    </templateIdentifier>
+    <userPreferences>
+      <characterSet>UNICODE</characterSet>
+      <qualityThreshold />
+    </userPreferences>
+    <triggerConditions>
+      <lineSelect>
+        <lineName lineNumber="001">MAILSTOP-LINE</lineName>
+      </lineSelect>
+      <lineSelect>
+        <isPopulated>U10.05, U10.06-0-1, U10.06-0-2, U10.06-0-3, U10.08, U10.09, U10.10, U10.03</isPopulated>
+        <lineName lineNumber="002">NAME-LINE</lineName>
+        <lineName lineNumber="003">TITLE-LINE</lineName>
+        <isPopulated>U10.00, U10.02</isPopulated>
+        <lineName lineNumber="002">ORG-LINE</lineName>
+        <lineName lineNumber="003">ORG-UNIT-LINE</lineName>
+      </lineSelect>
+      <lineSelect>
+        <lineName lineNumber="004">MAILEE-NAME-LINE</lineName>
+        <lineName lineNumber="005">MAILEE-TITLE-LINE</lineName>
+        <lineName lineNumber="006">MAILEE-ORG-UNIT-LINE</lineName>
+        <lineName lineNumber="007">MAILEE-ORG-LINE</lineName>
+      </lineSelect>
+      <lineSelect>
+        <lineName lineNumber="008">URBANIZATION-LINE</lineName>
+      </lineSelect>
+      <lineSelect>
+        <hasValue>U40.16; "APO"</hasValue>
+        <lineName lineNumber="009">RURAL-ROUTE-LINE</lineName>
+        <hasValue>U40.16; "FPO"</hasValue>
+        <lineName lineNumber="009">RURAL-ROUTE-LINE</lineName>
+        <hasResult>US-RuralRouteTypeTest; "Y"</hasResult>
+        <lineName lineNumber="009">RURAL-ROUTE-LINE</lineName>
+        <isPopulated>U40.19-0-1; U40.19-0-2</isPopulated>
+        <lineName lineNumber="009">PO-BOX-LINE</lineName>
+        <defaultCase />
+        <lineName lineNumber="009">STREET-ADDRESS-LINE</lineName>
+      </lineSelect>
+      <lineSelect>
+        <lineName lineNumber="010">CITY-STATE-ZIP-LINE</lineName>
+        <lineName lineNumber="011">COUNTRY-LINE</lineName>
+      </lineSelect>
+    </triggerConditions>
+    <lineData>
+      <lineName lineNumber="001">MAILSTOP-LINE</lineName>
+      <lineComponent>
+        <componentId>MS</componentId>
+        <priority>005</priority>
+        <elementData>
+          <elementId>U30.33</elementId>
+          <elementDef>supplementary despatch information</elementDef>
+          <elementDesc>mailstop</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+      </lineComponent>
+    </lineData>
+    <lineData>
+      <lineName lineNumber="002">NAME-LINE</lineName>
+      <lineComponent>
+        <componentId>NM</componentId>
+        <priority>001</priority>
+        <elementData>
+          <elementId>U10.04</elementId>
+          <elementDef>addressee role descriptor</elementDef>
+          <elementDesc>attention</elementDesc>
+          <migrationPrecedence>01</migrationPrecedence>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+        <elementData>
+          <elementId>U10.05</elementId>
+          <elementDef>form of address</elementDef>
+          <elementDesc>pre-honorific</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U10.06-0-1</elementId>
+          <elementDef>given name part 1</elementDef>
+          <elementDesc>first name</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U10.06-0-2</elementId>
+          <elementDef>given name part 2</elementDef>
+          <elementDesc>first middle name</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U10.06-0-3</elementId>
+          <elementDef>given name part 3</elementDef>
+          <elementDesc>second middle name</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U10.08</elementId>
+          <elementDef>surname</elementDef>
+          <elementDesc>last name</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U10.09</elementId>
+          <elementDef>name qualifier</elementDef>
+          <elementDesc>generation</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U10.10</elementId>
+          <elementDef>qualification</elementDef>
+          <elementDesc>post-honorific</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+      </lineComponent>
+    </lineData>
+    <lineData>
+      <lineName lineNumber="002">ORG-LINE</lineName>
+      <lineComponent>
+        <componentId>OR</componentId>
+        <priority>001</priority>
+        <elementData>
+          <elementId>U10.00</elementId>
+          <elementDef>organisation name</elementDef>
+          <elementDesc>organization name</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+        <elementData>
+          <elementId>U10.01</elementId>
+          <elementDef>organisation legal status</elementDef>
+          <elementDesc>organization type</elementDesc>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+      </lineComponent>
+    </lineData>
+    <lineData>
+      <lineName lineNumber="003">TITLE-LINE</lineName>
+      <lineComponent>
+        <componentId>TI</componentId>
+        <priority>011</priority>
+        <elementData>
+          <elementId>U10.04</elementId>
+          <elementDef>addressee role descriptor</elementDef>
+          <elementDesc>attention</elementDesc>
+          <migrationPrecedence>02</migrationPrecedence>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+        <elementData>
+          <elementId>U10.03</elementId>
+          <elementDef>function</elementDef>
+          <elementDesc>title</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+        </elementData>
+      </lineComponent>
+    </lineData>
+    <lineData>
+      <lineName lineNumber="003">ORG-UNIT-LINE</lineName>
+      <lineComponent>
+        <componentId>OU</componentId>
+        <priority>011</priority>
+        <elementData>
+          <elementId>U10.04</elementId>
+          <elementDef>addressee role descriptor</elementDef>
+          <elementDesc>attention</elementDesc>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+        <elementData>
+          <elementId>U10.02</elementId>
+          <elementDef>organisational unit</elementDef>
+          <elementDesc>organizational unit</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+      </lineComponent>
+    </lineData>
+    <lineData>
+      <lineName lineNumber="004">MAILEE-NAME-LINE</lineName>
+      <lineComponent>
+        <componentId>MN</componentId>
+        <priority>007</priority>
+        <elementData>
+          <elementId>U20.11</elementId>
+          <elementDef>mailee role descriptor</elementDef>
+          <elementDesc>c/o</elementDesc>
+          <migrationPrecedence>01</migrationPrecedence>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+        <elementData>
+          <elementId>U20.05</elementId>
+          <elementDef>form of address</elementDef>
+          <elementDesc>pre-honorific</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U20.06-0-1</elementId>
+          <elementDef>given name part 1</elementDef>
+          <elementDesc>first name</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U20.06-0-2</elementId>
+          <elementDef>given name part 2</elementDef>
+          <elementDesc>first middle name</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U20.06-0-3</elementId>
+          <elementDef>given name part 3</elementDef>
+          <elementDesc>second middle name</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U20.08</elementId>
+          <elementDef>surname</elementDef>
+          <elementDesc>last name</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U20.09</elementId>
+          <elementDef>name qualifier</elementDef>
+          <elementDesc>generation</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U20.10</elementId>
+          <elementDef>qualification</elementDef>
+          <elementDesc>post-honorific</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+      </lineComponent>
+    </lineData>
+    <lineData>
+      <lineName lineNumber="005">MAILEE-TITLE-LINE</lineName>
+      <lineComponent>
+        <componentId>MT</componentId>
+        <priority>008</priority>
+        <elementData>
+          <elementId>U20.11</elementId>
+          <elementDef>mailee role descriptor</elementDef>
+          <elementDesc>c/o</elementDesc>
+          <migrationPrecedence>02</migrationPrecedence>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+        <elementData>
+          <elementId>U20.03</elementId>
+          <elementDef>function</elementDef>
+          <elementDesc>title</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+        </elementData>
+      </lineComponent>
+    </lineData>
+    <lineData>
+      <lineName lineNumber="006">MAILEE-ORG-UNIT-LINE</lineName>
+      <lineComponent>
+        <componentId>MOU</componentId>
+        <priority>009</priority>
+        <elementData>
+          <elementId>U20.11</elementId>
+          <elementDef>mailee role descriptor</elementDef>
+          <elementDesc>c/o</elementDesc>
+          <migrationPrecedence>03</migrationPrecedence>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+        <elementData>
+          <elementId>U20.02-2-0</elementId>
+          <elementDef>organisational unit</elementDef>
+          <elementDesc>organizational unit</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+        </elementData>
+      </lineComponent>
+    </lineData>
+    <lineData>
+      <lineName lineNumber="007">MAILEE-ORG-LINE</lineName>
+      <lineComponent>
+        <componentId>MOR</componentId>
+        <priority>010</priority>
+        <elementData>
+          <elementId>U20.11</elementId>
+          <elementDef>mailee role descriptor</elementDef>
+          <elementDesc>c/o</elementDesc>
+          <migrationPrecedence>04</migrationPrecedence>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+        <elementData>
+          <elementId>U20.00-2-0</elementId>
+          <elementDef>organisation name</elementDef>
+          <elementDesc>organization name</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U20.01-2-0</elementId>
+          <elementDef>organisation legal status</elementDef>
+          <elementDesc>organization type</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+      </lineComponent>
+    </lineData>
+    <lineData>
+      <lineName lineNumber="008">URBANIZATION-LINE</lineName>
+      <lineComponent>
+        <componentId>UR</componentId>
+        <priority>006</priority>
+        <elementData>
+          <elementId>U40.17</elementId>
+          <elementDef>district</elementDef>
+          <elementDesc>urbanization</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+      </lineComponent>
+    </lineData>
+    <lineData>
+      <lineName lineNumber="009">STREET-ADDRESS-LINE</lineName>
+      <lineComponent>
+        <componentId>ST</componentId>
+        <priority>003</priority>
+        <requiredIfSelected>Y</requiredIfSelected>
+        <elementData>
+          <elementId>U40.24</elementId>
+          <elementDef>street number or plot</elementDef>
+          <elementDesc>primary house number</elementDesc>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+        <elementData>
+          <elementId>U40.21-1-3</elementId>
+          <elementDef>preceding primary thoroughfare qualifier</elementDef>
+          <elementDesc>pre-directional</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U40.21-1-1</elementId>
+          <elementDef>primary thoroughfare name</elementDef>
+          <elementDesc>street name</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U40.21-2-2</elementId>
+          <elementDef>primary thoroughfare type</elementDef>
+          <elementDesc>street type</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U40.21-2-3</elementId>
+          <elementDef>succeeding primary thoroughfare qualifier</elementDef>
+          <elementDesc>post-directional</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+      </lineComponent>
+      <lineComponent>
+        <componentId>DR</componentId>
+        <priority>001</priority>
+        <elementData>
+          <elementId>U40.32-0-1</elementId>
+          <elementDef>door type</elementDef>
+          <elementDesc>secondary unit type</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U40.32-0-2</elementId>
+          <elementDef>door indicator</elementDef>
+          <elementDesc>secondary unit identifier</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+      </lineComponent>
+    </lineData>
+    <lineData>
+      <lineName lineNumber="009">PO-BOX-LINE</lineName>
+      <lineComponent>
+        <componentId>PB</componentId>
+        <priority>003</priority>
+        <requiredIfSelected>Y</requiredIfSelected>
+        <elementData>
+          <elementId>U40.19-0-1</elementId>
+          <elementDef>delivery service type</elementDef>
+          <elementDesc>post office box type</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+        <elementData>
+          <elementId>U40.19-0-2</elementId>
+          <elementDef>delivery service indicator</elementDef>
+          <elementDesc>post office box indicator</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+        </elementData>
+      </lineComponent>
+    </lineData>
+    <lineData>
+      <lineName lineNumber="009">RURAL-ROUTE-LINE</lineName>
+      <lineComponent>
+        <componentId>RT</componentId>
+        <priority>003</priority>
+        <requiredIfSelected>Y</requiredIfSelected>
+        <elementData>
+          <elementId>U40.21-1-1</elementId>
+          <elementDef>primary thoroughfare name</elementDef>
+          <elementDesc>rural route name</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+        <elementData>
+          <elementId>U40.19-0-1</elementId>
+          <elementDef>delivery service type</elementDef>
+          <elementDesc>box type</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <elementData>
+          <elementId>U40.19-0-2</elementId>
+          <elementDef>delivery service indicator</elementDef>
+          <elementDesc>box indicator</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+      </lineComponent>
+    </lineData>
+    <lineData>
+      <lineName lineNumber="010">CITY-STATE-ZIP-LINE</lineName>
+      <lineComponent>
+        <componentId>LL</componentId>
+        <priority>002</priority>
+        <requiredIfSelected>Y</requiredIfSelected>
+        <elementData>
+          <elementId>U40.16</elementId>
+          <elementDef>town</elementDef>
+          <elementDesc>city</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+        <elementData>
+          <elementId>U40.15</elementId>
+          <elementDef>region</elementDef>
+          <elementDesc>state abbreviation</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <renditionOperator>
+          <operatorId>CONCAT</operatorId>
+          <fldJustify>L</fldJustify>
+          <fldText>' '</fldText>
+        </renditionOperator>
+        <elementData>
+          <elementId>U40.13-0-1</elementId>
+          <elementDef>primary postcode</elementDef>
+          <elementDesc>zip code</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+        </elementData>
+        <renditionOperator>
+          <operatorId>CONCAT</operatorId>
+          <fldJustify>L</fldJustify>
+          <fldText>'-'</fldText>
+        </renditionOperator>
+        <elementData>
+          <elementId>U40.13-0-2</elementId>
+          <elementDef>secondary postcode</elementDef>
+          <elementDesc>plus four</elementDesc>
+          <fldJustify>L</fldJustify>
+        </elementData>
+      </lineComponent>
+    </lineData>
+    <lineData>
+      <lineName lineNumber="011">COUNTRY-LINE</lineName>
+      <lineComponent>
+        <componentId>CO</componentId>
+        <priority>004</priority>
+        <elementData>
+          <elementId>U40.14</elementId>
+          <elementDef>country name</elementDef>
+          <elementDesc>country name</elementDesc>
+          <requiredIfSelected>Y</requiredIfSelected>
+          <fldJustify>L</fldJustify>
+          <posStart>001</posStart>
+        </elementData>
+      </lineComponent>
+    </lineData>
+  </contentDefinition>
+</patdl26.xml>
+<!-- vim: set syntax=xml sw=2 ts=2: -->
